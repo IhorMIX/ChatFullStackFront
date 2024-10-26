@@ -1,9 +1,14 @@
+import React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import WaitingRoom from './components/WaitingRoom';
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <ChakraProvider>
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+        <WaitingRoom/>
+      </div>
+    </ChakraProvider>
   );
 }
 
