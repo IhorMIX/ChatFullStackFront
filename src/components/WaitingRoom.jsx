@@ -12,7 +12,7 @@ export const WaitingRoom = ({joinChat}) => {
 
   return (
     <form onSubmit={onSubmit} className="max-w-sm w-full bg-white p-8 rounded shadow-lg">
-      <Heading>Online</Heading>
+      <Heading>Online Chat</Heading>
       <div className="mb-4">
         <Text fontSize={"sm"}>User Name</Text>
         <Input onChange={(e)=>setUserName(e.target.value)} name="userName" placeholder="Input your name" />
